@@ -1,0 +1,142 @@
+.bg-menu-header {
+    background-color: #1b7fd0;
+}
+
+.menu-header {
+    text-align: center;
+}
+
+.menu-header li {
+    background-color: #1b7fd0;
+    transition: 700ms;
+}
+
+.menu-header ul {
+    width: 100%;
+    text-align: center;
+}
+
+.menu-header a {
+    font-family: Roboto-Regular;
+    font-size: 20px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #caddea;
+    text-decoration: none;
+    transition: 700ms;
+}
+
+.menu-header li:hover {
+    background-color: #caddea;
+}
+
+.menu-header li:hover a {
+    color: #1b7fd0;
+}
+
+.icon-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.icon-nav a {
+    margin: 7px 0;
+    margin-right: 20px;
+}
+
+.mob-menu {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.mob-menu p {
+    font-family: Roboto-Thin;
+    font-size: 16px;
+    line-height: 20px;
+    color: #caddea;
+    margin: 0px;
+    padding: 0px;
+}
+
+.mob-menu span {
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    line-height: normal;
+    color: #caddea;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+    .bg-menu-header {
+        background-color: #1b7fd0;
+    }
+    
+    .menu-header {
+        text-align: center;
+    }
+    
+    .menu-header li {
+        background-color: #1b7fd0;
+        transition: 700ms;
+    }
+    
+    .menu-header ul {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .menu-header a {
+        font-family: Roboto-Regular;
+        font-size: 20px;
+        line-height: 42px;
+        text-transform: uppercase;
+        color: #caddea;
+        text-decoration: none;
+        transition: 700ms;
+    }
+    
+    .menu-header li:hover {
+        background-color: #caddea;
+    }
+    
+    .menu-header li:hover a {
+        color: #1b7fd0;
+    }
+    
+    .icon-nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .icon-nav a {
+        margin: 7px 0;
+        margin-right: 20px;
+    }
+    
+    .mob-menu {
+        text-align: right;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .mob-menu p {
+        font-family: Roboto-Thin;
+        font-size: 16px;
+        line-height: 20px;
+        color: #caddea;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .mob-menu span {
+        font-family: Roboto-Regular;
+        font-size: 16px;
+        line-height: normal;
+        color: #caddea;
+    }
+}

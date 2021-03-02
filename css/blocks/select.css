@@ -1,0 +1,526 @@
+.bg-select {
+    background: url(../../img/Bg-select.png);
+    background-color: #075da2;
+    background-position: center;
+}
+
+.select-h2 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    background-color: #caddea;
+    border-radius: 5px 5px 5px 0;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.select-h2 h2 {
+    padding: 10px 0 10px 10px;
+    font-family: Roboto-Bold;
+    font-size: 28px;
+    line-height: 28px;
+    color: #1b7fd0;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.select-h2 span {
+    text-transform: none;
+}
+
+.d28 {
+    height: 6px;
+    width: 50px;
+    margin: 6px;
+    position: relative;
+}
+
+.d28:before,
+.d28:after {
+    content: "";
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    background: #0a5ea1;
+}
+
+.d28:before {
+    left: 0;
+    transform: skew(0deg, 10deg);
+}
+
+.d28:after {
+    right: 0;
+    transform: skew(0deg, -10deg);
+}
+
+.select-h2 .d28 {
+    transform: rotate(-90deg);
+}
+
+.select-h2-button button {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+.select-h2-button .btn:focus,
+.btn.focus {
+    transition: none;
+    border: none;
+    box-shadow: none;
+}
+
+.select-h2-button .span-p {
+    font-family: Roboto-Regular;
+    font-size: 22px;
+    line-height: 20px;
+    color: #1b7fd0;
+    margin-left: 5px;
+    text-transform: uppercase;
+}
+
+.select-h2-button span {
+    font-family: Roboto-Bold;
+    font-size: 50px;
+    color: #dd0000;
+}
+
+.select-h2-button .span-off {
+    color: #dd0000;
+    font-family: Roboto-Regular;
+    font-size: 35px;
+}
+
+.main-select .d7 {
+    width: 0;
+    height: 0;
+    border-top: 15px solid #caddea;
+    border-right: 15px solid transparent;
+    margin-bottom: 30px;
+}
+
+.select-select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.select-select-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.four-select select {
+    background-color: #e9f7fe;
+    border-radius: 0px;
+    width: 310px;
+    height: 35px;
+}
+
+
+.four-select span {
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+.t-price {
+    width: 310px;
+
+}
+
+.t-price .price {
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+
+}
+
+.t-price .price-16 {
+    font-family: Roboto-Regular;
+    font-size: 45px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.t-price .usd {
+    font-family: Roboto-Regular;
+    font-size: 20px;
+    line-height: 45px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.red-botn .btn {
+    width: 310px;
+    background-color: #dd0000;
+    font-family: Roboto-Regular;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 0;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.red-botn .btn:focus,
+.btn.focus {
+    transition: none;
+    border: none;
+    box-shadow: none;
+}
+
+.red-botn .btn:hover{
+    color: #000000;
+}
+
+.select-select-2 .d7 {
+    width: 0;
+    height: 0;
+    border-top: 15px solid #dd0000;
+    border-right: 15px solid transparent;
+    position: relative;
+    right: 355px;
+    top: 44px;
+}
+/*MOBIL*/
+.select-h2-mobil {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    background-color: #caddea;
+    border-radius: 5px 5px 5px 0;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.select-h2-mobil h2 {
+    padding: 10px 0 10px 0px;
+    font-family: Roboto-Bold;
+    font-size: 22px;
+    line-height: 22px;
+    color: #1b7fd0;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.select-h2-mobil span {
+    text-transform: none;
+    margin-bottom: 0;
+}
+
+.select-select-2 .d8 {
+    width: 0;
+    height: 0;
+    border-top: 15px solid #dd0000;
+    border-right: 15px solid transparent;
+    margin: 0px;
+}
+
+@media (max-width: 320px) {
+    .four-select select {
+        width: 265px;
+        margin-bottom: 20px;
+    }
+
+    .t-price {
+        width: 265px;
+    }
+
+    .red-botn .btn {
+        width: 265px;
+        font-size: 24px;
+    }
+
+    .select-select-2 .d7 {
+        right: 295px;
+        top: 45px;
+    }
+
+    .select-select {
+        display: block;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+
+    .select-select-2 {
+        display: block;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+
+    .four-select span {
+        margin-bottom: 15px;
+    }
+
+    .t-price .price-16 {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .select-select-2 .t-price {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    .select-h2-button .span-p {
+        font-size: 17px;
+    }
+
+    .select-h2-button span {
+        font-size: 45px;
+    }
+
+    .select-h2-button .span-off {
+        font-size: 30px;
+    }
+
+    .four-select select {
+        width: 290px;
+    }
+
+    .t-price {
+        width: 290px;
+    }
+
+    .red-botn .btn {
+        width: 290px;
+    }
+
+    .select-select-2 .d7 {
+        right: 295px;
+        top: 45px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+
+    .bg-select {
+        background: url(../../img/Bg-select.png);
+        background-color: #075da2;
+        background-position: center;
+    }
+
+    .select-h2 {
+        margin-top: 30px;
+        margin-bottom: 0px;
+        background-color: #caddea;
+        border-radius: 5px 5px 5px 0;
+        display: flex;
+        align-items: center;
+        height: 50px;
+    }
+
+    .select-h2 h2 {
+        padding: 10px 0 10px 10px;
+        font-family: Roboto-Bold;
+        font-size: 28px;
+        line-height: 28px;
+        color: #1b7fd0;
+        text-transform: uppercase;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+
+    .select-h2 span {
+        text-transform: none;
+    }
+
+    .d28 {
+        height: 6px;
+        width: 50px;
+        margin: 6px;
+        position: relative;
+    }
+
+    .d28:before,
+    .d28:after {
+        content: "";
+        height: 100%;
+        width: 50%;
+        position: absolute;
+        top: 0;
+        background: #0a5ea1;
+    }
+
+    .d28:before {
+        left: 0;
+        transform: skew(0deg, 10deg);
+    }
+
+    .d28:after {
+        right: 0;
+        transform: skew(0deg, -10deg);
+    }
+
+    .select-h2 .d28 {
+        transform: rotate(-90deg);
+    }
+
+    .select-h2-button button {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 0;
+    }
+
+    .select-h2-button .btn:focus,
+    .btn.focus {
+        transition: none;
+        border: none;
+        box-shadow: none;
+    }
+
+    .select-h2-button .span-p {
+        font-family: Roboto-Regular;
+        font-size: 22px;
+        line-height: 20px;
+        color: #1b7fd0;
+        margin-left: 5px;
+        text-transform: uppercase;
+    }
+
+    .select-h2-button span {
+        font-family: Roboto-Bold;
+        font-size: 50px;
+        color: #dd0000;
+    }
+
+    .select-h2-button .span-off {
+        color: #dd0000;
+        font-family: Roboto-Regular;
+        font-size: 35px;
+    }
+
+    .main-select .d7 {
+        width: 0;
+        height: 0;
+        border-top: 15px solid #caddea;
+        border-right: 15px solid transparent;
+        margin-bottom: 30px;
+    }
+
+    .select-select {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .select-select-2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+    }
+
+    .four-select select {
+        background-color: #e9f7fe;
+        border-radius: 0px;
+        width: 310px;
+        height: 35px;
+    }
+
+    .four-select span {
+        font-family: Roboto-Regular;
+        font-size: 16px;
+        line-height: 30px;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+
+    .t-price {
+        width: 310px;
+
+    }
+
+    .t-price .price {
+        font-family: Roboto-Regular;
+        font-size: 16px;
+        color: #ffffff;
+        text-transform: uppercase;
+
+    }
+
+    .t-price .price-16 {
+        font-family: Roboto-Regular;
+        font-size: 45px;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-left: 20px;
+        margin-right: 15px;
+    }
+
+    .t-price .usd {
+        font-family: Roboto-Regular;
+        font-size: 20px;
+        line-height: 45px;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+
+    .red-botn .btn {
+        width: 310px;
+        background-color: #dd0000;
+        font-family: Roboto-Regular;
+        font-size: 26px;
+        text-transform: uppercase;
+        color: #ffffff;
+        border-radius: 0;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 1s;
+    }
+
+    .red-botn .btn:focus,
+    .btn.focus {
+        transition: none;
+        border: none;
+        box-shadow: none;
+    }
+
+    .red-botn .btn:hover{
+        color: #000000;
+    }
+
+    .select-select-2 .d7 {
+        width: 0;
+        height: 0;
+        border-top: 15px solid #dd0000;
+        border-right: 15px solid transparent;
+        position: relative;
+        right: 355px;
+        top: 44px;
+    }
+}

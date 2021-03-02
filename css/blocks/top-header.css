@@ -1,0 +1,134 @@
+.bg-top-header {
+   background: url(../../img/bg-top-header.png) #023863 no-repeat;
+   background-size: cover;
+}
+
+.top-header {
+   padding-top: 1.794%;
+   padding-bottom: 1.282%;
+   display: flex;
+   align-items: center;
+}
+
+.top-header p {
+   font-family: Roboto-Thin;
+   font-size: 20px;
+   line-height: 22px;
+   color: #caddea;
+   margin: 20px 0;
+}
+
+.top-header span {
+   font-family: Roboto-Regular;
+   font-size: 20px;
+   line-height: 22px;
+   color: #caddea;
+}
+
+.top-header a {
+   font-family: Roboto-Regular;
+   font-size: 22px;
+   line-height: 24px;
+   color: #ffffff;
+   text-transform: uppercase;
+   text-decoration: none;
+   transition: 700ms;
+
+}
+
+.top-header a:hover {
+   color: #caddea;
+}
+@media (min-width: 1200px) {
+   .container {
+      max-width: 1140px;
+   }
+   .bg-top-header {
+      background: url(../../img/bg-top-header.png) #023863 no-repeat;
+      background-size: cover;
+   }
+   
+   .top-header {
+      padding-top: 1.794%;
+      padding-bottom: 1.282%;
+      display: flex;
+      align-items: center;
+   }
+   
+   .top-header p {
+      font-family: Roboto-Thin;
+      font-size: 20px;
+      line-height: 22px;
+      color: #caddea;
+      margin: 20px 0;
+   }
+   
+   .top-header span {
+      font-family: Roboto-Regular;
+      font-size: 20px;
+      line-height: 22px;
+      color: #caddea;
+   }
+   
+   .top-header a {
+      font-family: Roboto-Regular;
+      font-size: 22px;
+      line-height: 24px;
+      color: #ffffff;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: 700ms;
+   
+   }
+   
+   .top-header a:hover {
+      color: #caddea;
+   }
+}
+
+@media (min-width: 992px) {
+   .sales {
+      text-align: right;
+   }
+}
+
+/*mobile*/
+
+.logo-min img {
+   margin: 20px 0;
+}
+
+.burger {
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+}
+
+.burger span,
+.burger span::before,
+.burger span::after {
+   display: block;
+   width: 65px;
+   height: 5px;
+   background-color: #fff;
+   position: relative;
+}
+
+.burger span::before,
+.burger span::after {
+   content: '';
+   position: absolute;
+}
+
+.burger span::before {
+   top: 10px;
+}
+
+.burger span::after {
+   top: -10px;
+}
+
+.burger-nav {
+   justify-content: flex-start;
+}
+

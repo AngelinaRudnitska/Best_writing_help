@@ -1,0 +1,122 @@
+.bg-nav-footer {
+    background-color: #caddea;
+}
+
+.nav-footer {
+    padding: 1.28% 0;
+}
+
+.nav-footer .visa-card {
+    margin-right: 120px;
+    display: flex;
+    justify-content: stretch;
+}
+
+.nav-footer .s-networks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-networks a {
+    font-size: 32px;
+    margin-right: 45px;
+    color: #1b7fd0;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.s-networks a:nth-of-type(3) {
+    margin-right: 0px;
+}
+
+.s-networks a:nth-of-type(2) {
+    color: #013056;
+}
+
+.s-networks a:hover {
+    color: #0c3a5f;
+}
+
+.s-networks a:nth-of-type(2):hover {
+    color: #1b7fd0;
+}
+
+@media (max-width: 320px) {
+    .nav-footer .s-networks {
+        padding: 0px;
+    }
+
+    .nav-footer {
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-nav-footer {
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    .nav-footer .visa-card {
+        margin-right: 70px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+
+    .bg-nav-footer {
+        background-color: #caddea;
+    }
+
+    .nav-footer {
+        padding: 1.28% 0;
+    }
+
+    .nav-footer .visa-card {
+        margin-right: 120px;
+        display: flex;
+        justify-content: stretch;
+    }
+
+    .nav-footer .s-networks {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .s-networks a {
+        font-size: 32px;
+        margin-right: 45px;
+        color: #1b7fd0;
+        text-decoration: none;
+        transition: 1s;
+    }
+
+    .s-networks a:nth-of-type(3) {
+        margin-right: 0px;
+    }
+
+    .s-networks a:nth-of-type(2) {
+        color: #013056;
+    }
+
+    .s-networks a:hover {
+        color: #0c3a5f;
+    }
+
+    .s-networks a:nth-of-type(2):hover {
+        color: #1b7fd0;
+    }
+}
